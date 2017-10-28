@@ -1,0 +1,91 @@
+/*CLASES REUTILIZABLES*/
+
+ * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+/*ESTILOS DE TEXTO*/
+h1 {
+	font-size: 40px;
+	margin: 0;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 18px;
+	margin-top: 5px;
+	font-weight: 100;
+}
+
+/*HEADER*/
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #009B54;
+	color: #FFF;
+	text-align: right;
+	padding: 10px 60px;
+}
+
+/*SECCION IMAGEN*/
+.panda-image {
+	height: 700px;
+	width: 100%;
+	background-image: url(../img/one.jpg);
+	background-size: cover;
+}
+
+/*SECCION TEXTO*/
+.section-text {
+	height: 600px;
+	width: 100%;
+	background-color: #444546;
+	text-align: center;
+	padding: 125px 425px;
+}
+
+.text {
+	background-color: #009B54;
+	color: #FFF;
+	padding: 20px;
+	width: 500px;
+	height: auto;
+	text-align: center;
+}
+
+/*SECCION IMAGEN 2*/
+.panda2 {
+	height: 750px;
+	width: 100%;
+	background-image: url(../img/two.jpg);
+	background-size: cover;
+}
+
+/*ULTIMA SECCION*/
+footer {
+	height: 40px;
+	width: 100%;
+	background-color: #009B54;
+	text-align: center;
+	color: #FFF;
+	padding: 1px;
+}
